@@ -7,5 +7,13 @@
 	</classpathentry>
 	<classpathentry kind="src" path="Java Basics"/>
 	<classpathentry kind="src" path="Control Statements"/>
+	<classpathentry kind="src" path="Java Object Class"/>
+	<classpathentry kind="src" path="Java Inheritance"/>
+	<classpathentry kind="src" path="Java Polymorphism"/>
+	<classpathentry kind="src" path="Java Abstraction"/>
+	<classpathentry kind="src" path="Java Encapsulation"/>
+	<classpathentry kind="src" path="Java Arrays"/>
+	<classpathentry kind="src" path="Java OOPs Misc"/>
+	<classpathentry kind="src" path="Java String"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

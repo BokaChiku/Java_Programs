@@ -1,0 +1,65 @@
+Java Strictfp Keyword:
+
+Java strictfp keyword ensures that you will get the smae results on every platform
+operations in the floating-point variable. The percison may differ from platform to 
+platform that is why jav programming language have provided the strictfp keyword, 
+so that you get same result on every platform. So you have better control over 
+floating point arithmetic.
+
+=> Legal code for strictfp keyword:
+
+1) strictfp class A() // strictfp applied on class
+{
+
+}
+
+2) strictfp interface M // strict applied on interface
+{
+
+}
+
+3) class A
+
+{
+
+strictfp void m()
+{
+
+}
+
+}
+
+=> Illegal code for strictfp keyword:
+
+The strictfp keyword cannot be applied on abstract methods, variables and constructors.
+
+1) class B 
+{
+
+strictfp abstract void m() // illegal combination of modifers
+
+{
+
+}
+
+}
+
+2) class B
+
+{
+
+strictfp int data = 30; // modifer strictfp not allowed here
+
+}
+
+3) class B 
+
+{
+
+strictfp B()
+
+{
+
+}
+
+} 

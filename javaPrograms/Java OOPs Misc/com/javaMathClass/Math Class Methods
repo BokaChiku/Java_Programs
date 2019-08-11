@@ -1,0 +1,22 @@
+Basic Math Methods:
+
+1) Math.abs() => Return Absolute value of the given value.
+
+2) Math.max() => Return Largest of two values.
+
+3) Math.min() => Return smallest of two values
+
+4) Math.round() => It is used to round of decimal number to nearest value.
+
+5) Math.sqrt() => Return square root of a number.
+
+6) Math.cbrt() => Returnn the cude root of a number.
+
+7) Math.pow() => It returns the value of first argument raised to power to second argument.
+
+8) Math.signum() => It is used to find sign of given value.
+
+9) Math.cell() => It is used to find smallest integer value that is greater than or equal to the argument or mathematical integer.
+
+10) Math.floor() => It is used to find largest integer value which is less than or equal to the argument and is equal to  mathematical integer of a double value.
+ 

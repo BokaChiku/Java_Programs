@@ -1,0 +1,28 @@
+Java String class methods:
+
+The java.lang.String class provides many useful methods to perform operation on sequence of char value.
+
+1. char charAt(int index): returns char value for the particular index
+2. int length(): returns string length
+3. static String format(String format, Object... args): returns a formatted string
+4. static String format(Locale I, String format, Object... args): returns formatted string with given locale.
+5. String subString(int beginIndex): returns substring for given begin index.
+6. String subString(int beginIndex, int endIndex): returns substring for the given begin index and end index.
+7. boolean contains(CharSequence s): returns true or false after matching the sequence of char value.
+8. satic String join(charSequence delimiter, CharSequence..elements): returns a joined string.
+9. boolean equals(Object another): checks the quality of string with given object.
+10. boolean isEmpty(): checks if string is empty or note
+11. String concat(String str): concatenates the specified string
+12. String replace(char old, char new): replaces all occurrences of the specified char value.
+13. String replace(CharSequence old, CharSequence new): replaces all occurrences of the specified CharSequence.
+14. static String equalsIgnoreCase(String another): compares with another String and dosen't check case of String.
+15. String[] split(String regx): returns a split string matching regx.
+16. String[] split(String regx, int limit): returns a split string matching regx and limit.
+17. String intern(): returns an interned string.
+18. int indexOf(int ch, int fromindex): returns the specified char value index starting from given index.
+19. int indexOf(String substring): returns the specified substring index.
+20. int indexOf(String substring, int fromIndex): returns the specified substring index starting with given index.
+21. String toLowerCase(): returns a string in lowercase
+22. String toLowerCase(Locale I): returns a string in lowercase using specified locale.
+23. String trim(): removes beginning and ending spaces of the string.
+24. static String valueOf(int value): converts given type imto String. It is an Overloaded method.

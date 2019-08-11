@@ -1,0 +1,31 @@
+Subpackage in Java:
+
+1. Package inside the package is called subpackage. It should be created as categorize the package further.
+
+Example: Sun Microsystem has defined a package named java that conatains many classes like System, String, Reader, Writer, Socket etc..
+These classes represent particular groups. 
+
+2. There can be only one public class in java source file and it must be saved by class name. 
+
+Example:
+
+class A{
+}
+class B{
+}
+public class C{
+}
+
+Save the file as C.java otherwise compiler will give error.
+
+3. How to put two public classes in one one package
+
+package point;
+
+public class A{
+}
+
+package point;
+
+public class B{
+}
