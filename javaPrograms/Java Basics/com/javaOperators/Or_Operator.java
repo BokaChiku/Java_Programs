@@ -1,7 +1,7 @@
 /**
  * Java OR Operator Example: Logical || and Bitwise |
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

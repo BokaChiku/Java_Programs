@@ -1,7 +1,7 @@
 /**
  * Java AND Operator Example: Logical && and Bitwise &
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24
@@ -14,15 +14,17 @@ package operators;
  * @implNote -> It checks both conditions whether first condition is true or
  *           false.
  */
-public class And_Operator
+public class And_Operator2
 {
 	public static void main(String[] args)
 	{
 		int a = 10;
 		int b = 5;
 		int c = 20;
-		System.out.println("Logical &&: " + (a < b && a < c));// false && true = false
-		System.out.println("Bitwise &: " + (a < b & a < c));// false & true = false
+		System.out.println(a < b && a++ < c);// false && true = false
+		System.out.println(a);// 10 (beccause second condition is not checked)
+		System.out.println(a < b & a++ < c);// false && true = false
+		System.out.println(a);// 11 (beccause second condition is checked)
 
 	}
 }

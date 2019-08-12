@@ -1,7 +1,7 @@
 /**
  * Widening
  */
-package variables;
+package com.javaVariables;
 
 /**
  * @author Kunal24

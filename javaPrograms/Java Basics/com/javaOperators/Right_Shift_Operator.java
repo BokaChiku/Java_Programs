@@ -1,7 +1,7 @@
 /**
  * Java Right Shift Operator Example
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

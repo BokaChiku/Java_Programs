@@ -1,7 +1,7 @@
 /**
  * Java variable example: Typecasting
  */
-package variables;
+package com.javaVariables;
 
 /**
  * @author Kunal24

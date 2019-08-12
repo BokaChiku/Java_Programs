@@ -1,7 +1,7 @@
 /**
  * Java Left Shift Operator
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

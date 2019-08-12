@@ -2,7 +2,7 @@
  * Java Unary Operator
  * Example: ++ and --
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

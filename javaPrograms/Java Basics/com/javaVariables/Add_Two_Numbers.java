@@ -1,7 +1,7 @@
 /**
  * Add Two Number
  */
-package variables;
+package com.javaVariables;
 
 /**
  * @author Kunal24

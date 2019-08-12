@@ -1,7 +1,7 @@
 /**
  * Types of variables.
  */
-package variables;
+package com.javaVariables;
 
 /**
  * @author Kunal24

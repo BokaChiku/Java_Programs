@@ -1,7 +1,7 @@
 /**
  * Java arithmetic operator: Expression
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

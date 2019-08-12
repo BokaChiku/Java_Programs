@@ -1,7 +1,7 @@
 /**
  * Java Ternary Operator
  */
-package operators;
+package com.javaOperators;
 
 /**
  * @author Kunal24

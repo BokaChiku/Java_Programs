@@ -1,7 +1,7 @@
 /**
  * Java Variable Example: Overflow
  */
-package variables;
+package com.javaVariables;
 
 /**
  * @author Kunal24
