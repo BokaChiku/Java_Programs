@@ -15,5 +15,7 @@
 	<classpathentry kind="src" path="Java Arrays"/>
 	<classpathentry kind="src" path="Java OOPs Misc"/>
 	<classpathentry kind="src" path="Java String"/>
+	<classpathentry kind="src" path="Java Exception Handling"/>
+	<classpathentry kind="src" path="Java Inner Class"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

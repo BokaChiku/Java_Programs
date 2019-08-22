@@ -1,0 +1,116 @@
+1) Exception Handling in Java
+
+-> It handle the runtime errors so that normal flow of the application can be maintained.
+
+2) What is Exception in Java?
+
+-> In Java, an exception is an event that disrupts the normal flow of the program. 
+It is an object which is thrown at runtime.
+-> Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, 
+IOException, SQLException, RemoteException, etc.
+
+3) Advantage of Exception Handling
+
+-> The core advantage of exception handling is to maintain the normal flow of the application. 
+An exception normally disrupts the normal flow of the application that is why we use exception handling.
+
+-> Example: 
+
+statement 1;  
+statement 2;  
+statement 3;  
+statement 4;  
+statement 5;//exception occurs  
+statement 6;  
+statement 7;  
+statement 8;  
+statement 9;  
+statement 10;  
+
+-> Suppose there are 10 statements in your program and there occurs an exception at statement 5,
+
+The rest of the code will not be executed i.e. statement 6 to 10 will not be executed. 
+If we perform exception handling, the rest of the statement will be executed. 
+That is why we use exception handling in Java.
+
+4) Hierarchy of Java Exception classes
+
+-> The java.lang.Throwable class is the root class of Java Exception hierarchy which is inherited by two 
+subclasses: Exception and Error. A hierarchy of Java Exception classes
+
+5) Types of Java Exceptions
+
+-> There are mainly two types of exceptions: checked and unchecked. 
+
+Here, an error is considered as the unchecked exception. 
+According to Oracle, there are three types of exceptions:
+Checked Exception
+Unchecked Exception
+Error
+
+6) Difference between Checked and Unchecked Exceptions
+
+-> Checked Exception
+
+The classes which directly inherit Throwable class except RuntimeException and Error are known as checked exceptions e.g. 
+IOException, SQLException etc. Checked exceptions are checked at compile-time.
+
+-> Unchecked Exception
+
+The classes which inherit RuntimeException are known as unchecked exceptions e.g. 
+ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. 
+Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+
+-> Error
+
+Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+7) Java Exception Keywords
+
+There are 5 keywords which are used in handling exceptions in Java.
+
+-> try: The "try" keyword is used to specify a block where we should place exception code. 
+
+The try block must be followed by either catch or finally. It means, we can't use try block alone.
+
+-> catch: The "catch" block is used to handle the exception. 
+
+It must be preceded by try block which means we can't use catch block alone. 
+It can be followed by finally block later.
+
+-> finally: The "finally" block is used to execute the important code of the program.
+ It is executed whether an exception is handled or not.
+ 
+-> throw: The "throw" keyword is used to throw an exception.
+ 
+-> throws: The "throws" keyword is used to declare exceptions. It doesn't throw an exception. 
+
+It specifies that there may occur an exception in the method. 
+It is always used with method signature.
+
+8) Common Scenarios of Java Exceptions
+
+-> A scenario where ArithmeticException occurs
+
+If we divide any number by zero, there occurs an ArithmeticException.
+int a=50/0;//ArithmeticException  
+
+-> A scenario where NullPointerException occurs
+
+A scenario where NullPointerException occurs
+If we have a null value in any variable, performing any operation on the variable throws a NullPointerException.
+String s=null;  
+System.out.println(s.length());//NullPointerException  
+
+-> A scenario where NumberFormatException occurs
+
+The wrong formatting of any value may occur NumberFormatException. 
+Suppose I have a string variable that has characters, converting this variable into digit will occur NumberFormatException.
+String s="abc";  
+int i=Integer.parseInt(s);//NumberFormatException 
+
+-> A scenario where ArrayIndexOutOfBoundsException occurs
+
+If you are inserting any value in the wrong index, it would result in ArrayIndexOutOfBoundsException as shown below:
+int a[]=new int[5];  
+a[10]=50; //ArrayIndexOutOfBoundsException

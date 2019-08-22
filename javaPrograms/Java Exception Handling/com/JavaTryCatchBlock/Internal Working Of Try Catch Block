@@ -1,0 +1,11 @@
+Internal Working Of Java Try Catch Block
+
+-> JVM checks whether exception is handled or not. If exception is not handled, JVM provides a default
+exception  handler that perform following task:
+
+1. Print exception description
+2. Print stack trace (Heriarchy of methods where handleds)
+3. Cause program to terminate.
+
+-> If exception is handled by the application programmer, normal flow of the application is maintained. 
+i.e reset code will execute
