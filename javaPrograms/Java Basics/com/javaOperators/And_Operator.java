@@ -8,7 +8,7 @@ package com.javaOperators;
  * @since 2019
  * @implNote 1.Logical &&
  * @implNote -> The logical && operator doesn't check second condition if first
- *           condition is false. t checks second cndition only if first one is
+ *           condition is false. It checks second cndition only if first one is
  *           true.
  * @implNote 2. Bitwise &
  * @implNote -> It checks both conditions whether first condition is true or

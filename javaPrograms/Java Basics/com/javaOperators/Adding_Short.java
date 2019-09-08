@@ -6,7 +6,7 @@ package com.javaOperators;
 /**
  * @author Kunal24
  * @since 2019
- * @implNote Adding Short
+ * @implNote Adding Short Data Type
  */
 public class Adding_Short
 {
@@ -15,6 +15,7 @@ public class Adding_Short
 		short a = 10;
 		short b = 10;
 		a += b;// a = a + b
+		System.out.println(a);
 		// a = a + b; // Compile Time error because 10 + 10 = 20 which in integer
 		a = (short) (a + b);
 		System.out.println(a);
