@@ -22,7 +22,7 @@ public class HashSet1
 {
 	public static void main(String[] args)
 	{
-		HashSet<String> set = new HashSet();
+		HashSet<String> set = new HashSet<String>();
 		set.add("One");
 		set.add("Two");
 		set.add("Three");

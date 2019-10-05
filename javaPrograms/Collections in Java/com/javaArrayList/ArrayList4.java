@@ -20,7 +20,7 @@ import java.util.ArrayList;
  */
 public class ArrayList4
 {
-	void display(ArrayList list)
+	void display(ArrayList<String> list)
 	{
 		for (int i = 0; i < list.size(); i++)
 		{

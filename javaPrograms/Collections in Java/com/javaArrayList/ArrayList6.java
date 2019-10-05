@@ -21,7 +21,7 @@ import java.util.Iterator;
  */
 public class ArrayList6
 {
-	void display(ArrayList list)
+	void display(ArrayList<String> list)
 	{
 		Iterator<String> itr = list.iterator();
 		itr.forEachRemaining(a ->

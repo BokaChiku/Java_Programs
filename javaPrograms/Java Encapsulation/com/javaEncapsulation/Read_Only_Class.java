@@ -11,7 +11,7 @@ package com.javaEncapsulation;
 
 class Company
 {
-	private final String name = " Benchmark";
+	private final String name = "Benchmark";
 
 	public String getName()
 	{

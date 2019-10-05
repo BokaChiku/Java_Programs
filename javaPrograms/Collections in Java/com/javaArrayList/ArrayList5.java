@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class ArrayList5
 {
 
-	void display(ArrayList list)
+	void display(ArrayList<String> list)
 	{
 		list.forEach(a -> //Here, we are using lambda expression 
 		{

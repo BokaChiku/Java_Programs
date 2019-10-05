@@ -21,9 +21,9 @@ import java.util.Iterator;
  */
 public class ArrayList2
 {
-	void display(ArrayList list)
+	void display(ArrayList<String> list)
 	{
-		Iterator itr = list.iterator();
+		Iterator<String> itr = list.iterator();
 		while (itr.hasNext())
 		{
 			System.out.println(itr.next());

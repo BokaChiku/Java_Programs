@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class ArrayList3
 {
 
-	void display(ArrayList list)
+	void display(ArrayList<String> list)
 	{
 		for (Object st : list)
 		{

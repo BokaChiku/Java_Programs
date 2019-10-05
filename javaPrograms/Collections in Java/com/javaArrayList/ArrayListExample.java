@@ -35,7 +35,7 @@ public class ArrayListExample
 		Book obj = new Book("Kunal", "Chavan", 234.345D, 45);
 		ArrayList<Book> list = new ArrayList<Book>();
 		list.add(obj);
-		Iterator itr = list.iterator();
+		Iterator<Book> itr = list.iterator();
 		while (itr.hasNext())
 		{
 			Book st = (Book) itr.next();
